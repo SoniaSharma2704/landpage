@@ -1,0 +1,469 @@
+ @charset "utf-8";
+
+ @font-face {
+     font-family: "Gotham";
+     src: url(fonts/Gotham-Black.otf) format('opentype');
+ }
+
+ /* CSS Document */
+ * {
+     box-sizing: border-box;
+     transition: all .25s cubic-bezier(.645, .045, .355, 1);
+ }
+
+ body {
+     background-color: none;
+
+ }
+
+ h1.Top-heading {
+     font-family: sans-serif;
+     color: white;
+     text-align: center;
+     margin-top: 20px;
+     font-size: 47px;
+     font-weight: 700;
+     letter-spacing: 0;
+ }
+
+ span.top-heading-2 {
+     color: whitesmoke;
+     font-size: 25px;
+     text-align: center;
+     padding: 15px;
+     line-height: 3;
+     letter-spacing: 12px;
+ }
+
+ span.top-heading-3 {
+     color: white;
+     text-align: center;
+
+     font-size: 22px;
+     font-weight: 700;
+     padding-bottom: 8px;
+     padding-top: 5px;
+     font-family: sans-serif;
+     letter-spacing: 3px;
+ }
+
+ span.top-heading-4 {
+     color: white;
+     text-align: center;
+     padding: 40px;
+     font-size: 26px;
+     font-family: ui-sans-serif;
+ }
+
+ .video-section {
+     position: relative;
+     padding-left: 100px;
+     padding-top: 50px;
+ }
+
+ p.click {
+     color: red;
+     text-align: center;
+     font-size: 21px;
+     font-weight: 700;
+     font-family: sans-serif;
+ }
+
+ button.btn.btn-primary {
+     padding: 20px 90px 20px 90px;
+     font-size: 30px;
+     color: black;
+     border: 2px solid #7CFC00;
+     background-color: #7CFC00;
+     text-align: center;
+     font-weight: 700;
+ }
+
+
+
+ .top-button {
+     text-align: center;
+ }
+
+ p.date-heading {
+     text-align: center;
+     color: #ffaf47;
+     font-size: 20px;
+     padding-top: 20px;
+     font-weight: 700;
+     line-height: 42px;
+ }
+
+ p.line-heading {
+     color: white;
+     text-align: center;
+     font-size: 30px;
+     letter-spacing: 3px;
+     line-height: 8px;
+     FONT-WEIGHT: 700;
+     padding-bottom: 40px;
+     padding-top: 15px;
+ }
+
+ h1.training-heading {
+     text-align: center;
+     font-size: 40px;
+     line-height: 1.363em;
+     font-weight: 700;
+     color: rgb(10, 35, 81);
+ }
+
+ .heading {
+     padding: 30px;
+ }
+
+ .training-heading.bg-black {
+     background: radial-gradient(#df8787ba, #eddede99);
+     text-align: center;
+     padding-top: 30px;
+     color: sienna;
+ }
+
+ h4.training-heading-1 {
+     font-size: 30px;
+     font-weight: 700;
+     text-align: center;
+ }
+
+ h1.training-heading-2 {
+     color: #0a2351;
+     font-size: 46px;
+     font-weight: 700;
+     letter-spacing: 0px;
+     padding: 20px 20px;
+     font-family: sans-serif;
+     text-align: center;
+ }
+
+ h3.training-heading-3 {
+     text-align: center;
+     font-size: 18px;
+     color: #00000096;
+     font-weight: 700;
+     font-family: sans-serif;
+ }
+
+ p.training-text {
+     text-align: center;
+     color: gray;
+     font-size: 18px;
+     letter-spacing: 0px;
+     font-weight: 600;
+     padding: 15px 98px 55px 98px;
+ }
+
+ img.image {
+     border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+     border-bottom-right-radius: 7px;
+     border-bottom-left-radius: 7px;
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 34px 6px;
+ }
+
+ button.btn.btn-primary.day-three {
+     position: relative;
+     left: 23%;
+     padding: 10px 150px 10px 150px;
+     font-size: 34px;
+
+     border: 2px solid #287be9;
+ }
+
+ .btn-gradient {
+     background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) !important;
+     -webkit-animation: animatedgradient 2s ease infinite alternate;
+     animation: animatedgradient 2s ease infinite alternate;
+     background-size: 300% 300%;
+ }
+
+ @keyframes animatedgradient {
+     0% {
+         background-position: 0% 50%;
+     }
+
+     50% {
+         background-position: 100% 50%;
+     }
+
+     100% {
+         background-position: 0% 50%;
+     }
+
+     10%,
+     90% {
+         transform: translate3d(-1px, 0, 0);
+     }
+
+     20%,
+     80% {
+         transform: translate3d(2px, 0, 0);
+     }
+
+     30%,
+     50%,
+     70% {
+         transform: translate3d(-4px, 0, 0);
+     }
+
+     40%,
+     60% {
+         transform: translate3d(4px, 0, 0);
+     }
+ }
+
+ section.amazon-Bonuses.p-5 {
+     background: #e7dbd299;
+ }
+
+ .training-section-bonus {
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 34px 6px;
+
+     text-align: center;
+     background: #ffffffcf;
+ }
+
+ h3.training-bonus {
+     font-size: 44px;
+     padding: 25px;
+     color: brown;
+     font-weight: 800;
+ }
+
+ .training-section-2-bonus {
+     box-shadow: rgb(0 0 0 / 30%) 0px 0px 34px 6px;
+     border-radius: 25px;
+     background: #ffffff;
+ }
+
+ .training-2 {
+     padding: 0px 41px 40px 40px;
+ }
+
+ b,
+ strong {
+     font-weight: bolder;
+     color: #21a353;
+ }
+
+ h5.training-bonus-section-2 {
+     font-size: 16px;
+     color: #0000008f;
+     font-weight: 700;
+     padding: 15px;
+     background: #e2dedc;
+     margin-bottom: 0;
+ }
+
+ h2.training-heading-bonus {
+     font-size: 16px;
+ }
+
+ h2.training-heading-bonus {
+     padding: 25px;
+ }
+
+ .training-image-blog {
+     background: #d3cdc9a6;
+
+ }
+
+ img.image-6 {
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 34px 6px;
+ }
+
+ .image-book {
+     padding: 30px 0px 0px 10px;
+ }
+
+ .training-section-button.pb-5 {
+     position: relative;
+     right: 20%;
+ }
+
+ h2.amazon-head-1 {
+     color: white;
+     text-align: center;
+     font-size: 38px;
+     font-weight: 700;
+ }
+
+ .amazon-image {
+     padding-left: 241px;
+     padding-top: 35px;
+ }
+
+ .amazon-contant {
+     text-align: center;
+     font-size: 54px;
+     padding-top: 20px;
+ }
+
+ span.bold b {
+     color: whitesmoke;
+     letter-spacing: 1px;
+ }
+
+ p.bold-cont {
+     font-size: 40px;
+     padding-top: 20px;
+ }
+
+ p.bold-cont b {
+     background: white;
+     color: black;
+ }
+
+ button.btn.btn-primary.amazon-contant.btn-gradient {
+     border: 1px solid #0f100e;
+     background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #ca7c3c, #ff0600, #6fba82) !important;
+     border-radius: 50px;
+ }
+
+ .amazon-section-button {
+     padding-top: 20px;
+     position: absolute;
+     left: 30%;
+ }
+
+ button.btn.btn-primary.amazon-contant.btn-gradient:hover {
+     color: white;
+     background-image: linear-gradient(60deg, #f79533b0, #f37055a1, #ef4e7b, #a166ab, #5073b891, #ca7c3c, #ff060082, #6fba82) !important;
+ }
+
+ .amazon-p {
+     padding-top: 10%;
+     text-align: center;
+ }
+
+ p.amazon-heading-p1 {
+     font-size: 20px;
+     font-weight: 700;
+     font-family: initial;
+ }
+
+ p.amazon-heading-p2 {
+     font-size: 28px;
+     font-weight: 700;
+     padding-bottom: 50px;
+ }
+
+ .training-section-bottom {
+     padding-top: 40px;
+     text-align: center;
+ }
+
+ h2.bottom-top-1 {
+     font-weight: 700;
+     font-size: 37px;
+     color: #010168;
+
+ }
+
+ img.bottom-1blog {
+     border-radius: 25px;
+     position: relative;
+    
+ }
+
+ .bottom-section-image {
+     padding-top: 45px;
+  
+ }
+
+ img.bottom-blog {
+     border-radius: 25px;
+
+ }
+
+
+p.star-view {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+}
+p.star-view b {
+    color: #3d3df5;
+}
+p.star-view b:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+button.btn.btn-primary.star.btn-gradient {
+    position: relative;
+    left: 48%;
+}
+section.section-coach {
+    background: #f0e9e4;
+}
+
+.coach-block {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+section.section-coach {
+    background: #f0e9e4;
+}
+
+p.coach-p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: initial;
+    
+}
+a.twitter {
+    padding: 5px;
+}
+a.facebook {
+    padding: 5px;
+}
+
+a.instagram {
+    padding: 5px;
+}
+a.linkedin {
+    padding: 5px;
+}
+ul.footer-icon {
+    display: flex;
+    padding-top: 25px;
+}
+span.footer-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 25px;
+    padding-left: 12px;
+}
+.footer {
+    display: contents;
+}
+.coach-section-button {
+    padding-left: 84px;
+}
+button.btn.btn-primary.coach.btn-gradient {
+    padding: 10px 35px 10px 35px;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.sticky-bottom {
+    position: fixed;
+    width: 1349px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
